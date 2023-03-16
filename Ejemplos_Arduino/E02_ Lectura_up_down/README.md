@@ -21,7 +21,7 @@ https://www.notion.so/didyde/Entradas-y-salidas-digitales-dd1e9e80958f425582b35e
 ### :red_circle: Software Modelado Electrónico
 * Fritzing
 * TinkerCad con Tarjeta de desarrollo Arduino Uno
-* https://www.tinkercad.com/things/iZqhd3VDemY
+https://www.tinkercad.com/things/drnqWRbf90d
 
 ## :interrobang: Ayuda
 
