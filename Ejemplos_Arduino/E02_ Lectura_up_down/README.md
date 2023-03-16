@@ -1,10 +1,10 @@
-# :closed_book: Clase_Introduccion a la Mecatrónica
+# :closed_book: E01 - Escritura pin digital
 
 ## :large_blue_diamond: Descripción
 
 
 ## :globe_with_meridians: Página web
-
+https://www.notion.so/didyde/Entradas-y-salidas-digitales-dd1e9e80958f425582b35ef8b7124b24?pvs=4
 
 ## :large_orange_diamond: Inicio
 
@@ -21,7 +21,7 @@
 ### :red_circle: Software Modelado Electrónico
 * Fritzing
 * TinkerCad con Tarjeta de desarrollo Arduino Uno
-* https://www.tinkercad.com/things/6VEPsdMs4qr
+* https://www.tinkercad.com/things/iZqhd3VDemY
 
 ## :interrobang: Ayuda
 
