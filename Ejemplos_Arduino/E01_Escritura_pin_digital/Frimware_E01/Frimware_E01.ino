@@ -25,5 +25,5 @@ void setup()
 void loop() 
 {
     digitalWrite(13,HIGH);
-	  digitalWrite(12,LOW);
+    digitalWrite(12,LOW);
 }//Fin loop
