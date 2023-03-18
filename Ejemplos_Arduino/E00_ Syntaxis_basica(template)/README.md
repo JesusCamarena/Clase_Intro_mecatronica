@@ -22,73 +22,11 @@ Aunque el lenguaje de Arduino está basado en C++, hay algunas diferencias y sim
 4. **Variables y tipos de datos:** El lenguaje de Arduino admite una variedad de tipos de datos básicos, como **`int`**, **`float`**, **`char`**, **`boolean`** y **`String`**. También es posible definir estructuras personalizadas y utilizar punteros, como en C++.
 5. **Control de flujo:** Las estructuras de control de flujo en el lenguaje de Arduino son similares a las de C++ y otros lenguajes de programación. Estas incluyen condicionales (if, else, switch), bucles (for, while, do-while) y control de flujo (break, continue, return).
 
-[Arduino Reference - Arduino Reference](https://www.arduino.cc/reference/en/)
-
-### 🔹 Syntaxis básica
-
-[Clase_Into_mecatronica/Ejemplos_Arduino/E00 - Syntaxis_basica(template) at main · JesusCamarena/Clase_Into_mecatronica](https://github.com/JesusCamarena/Clase_Into_mecatronica/tree/main/Ejemplos_Arduino/E00%20-%20Syntaxis_basica(template))
-
-```arduino
-//" ¡No copies y pegues el código, analízalo e inspirate en el! "
-
-/*************************************************************************
- *   Copyright (C) 2023 Jesús Camarena                                   *
- *   jesus.garzacmn@uanl.edu.mx                                          *
- *   Licencia: Attribution-NonCommercial-ShareAlike 3.0(CC-BY-NC-SA 3.0) *
- *   https://creativecommons.org/licenses/by-nc-sa/3.0/                  *
- *                                                                       * 
- *   Ejemplo:                                                            *
- *   Dispositivo: Arduino UNO                                            *
- *   Lenguaje: Arduino                                                   *
- *   Rev: 1.0                                                            *
- *                                                     Fecha: 15/03/23   *
- ************************************************************************/
-
-//comentario corto
-/*comentario largo */
-
-//Se ejecuta solamente una vez
-void setup() 
-{
-    // Código de configuración inicial
-}//Fin setup
-
-//Se ejecuta infinitamente
-void loop() 
-{
-    // Código que se ejecuta repetidamente
-}//Fin loop
-```
-
-## 🔸 Resumen
-
----
-
-# 📓Actividad
-
----
-
-Primer proyecto: Blink (parpadeo de un LED)
-
-# 🧠 Ejercicios
-
----
-
-# ❓Preguntas
-
----
-
-# ❗Véase también
-
----
-
-# ✔️ Referencias
-
 ---
 
 # 👁️‍🗨️ Otros temas
 
-**Tabla de contenido**
+
 
 **Introducción General:**
 
