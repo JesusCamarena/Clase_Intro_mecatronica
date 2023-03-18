@@ -13,17 +13,17 @@
  *                                                     Fecha: 15/03/23   *
  ************************************************************************/
 
-//Se ejecuta solamente una vez
+//-------------setup()--------------------//
 void setup() 
 {
   //--Outputs
-  pinMode(13,OUTPUT); // Pin D13 es una salida
-  pinMode(D12,OUTPUT);// Pin D12 es una salida
+  pinMode(13,OUTPUT);
+  pinMode(12,OUTPUT);
 }//Fin setup
 
-//Se ejecuta infinitamente
+//-------------loop()--------------------//
 void loop() 
 {
-    digitalWrite(13,HIGH); // Pin D13 esta en source
-    digitalWrite(D12,LOW); // Pin D12 esta en sink
+    digitalWrite(13,HIGH);
+	  digitalWrite(12,LOW);
 }//Fin loop
