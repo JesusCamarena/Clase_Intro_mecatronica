@@ -81,13 +81,13 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
 
 ### 5️⃣ **Simulación**
 
-[Circuit design E02_ Lectura_up_down | Tinkercad](https://www.tinkercad.com/things/drnqWRbf90d)
+[Tinkercad](https://www.tinkercad.com/things/drnqWRbf90d)
 
 ---
 
 ### 6️⃣ **Prototipado**
 
-![Prototipado](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/bb68e8b30d1ae4086ffbb0f4e0d35db5ed94c46d/Ejemplos_Arduino/E02_%20Lectura_up_down/Images/E02_%20Lectura_up_downl_fr_bb.png)
+[Prototipado](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/15802eeb0c64c5c5a7ab0ae0893b2c06ad198c0e/Ejemplos_Arduino/E02_%20Lectura_up_down/Images/E02_%20Lectura_up_downl_fr_bb.png)
 
 ---
 
