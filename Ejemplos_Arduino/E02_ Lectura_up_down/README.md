@@ -9,31 +9,30 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
 ---
 
 - **Documentos Arduino UNO**
-    [Arduino UNO](https://store-usa.arduino.cc/products/arduino-uno-rev3?selectedStore=us)
+
+    [Arduino UNO_page](https://store-usa.arduino.cc/products/arduino-uno-rev3?selectedStore=us)
     
-    [AUNO_docs]([https://docs.arduino.cc/hardware/uno-rev3](https://docs.arduino.cc/hardware/uno-rev3))
+    [Arduino UNO_docs](https://docs.arduino.cc/hardware/uno-rev3)
     
     [Arduino UNO datasheet.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09e02053-758a-4718-bc0d-f3427501147b/Arduino_UNO_datasheet.pdf)
     
     [Arduino UNO THT_schematics.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e0da3da-414c-4881-84b2-677c23ed2cd0/Arduino_UNO_THT_schematics.pdf)
     
-    ![SRL-image-0 (1).png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9c4ab46b-f27c-4ff2-82ed-f7b69604c35b%2FSRL-image-0_(1).png?id=d034c0a3-67d5-4767-907c-5ea3508ca1fc&table=block&spaceId=c14cd858-9512-406d-b68f-90710326c6aa&width=2000&userId=7df30413-c942-494a-a0b0-083e44fa7787&cache=v2)
+    [Arduino UNO_pin_out](https://content.arduino.cc/assets/A000066-pinout.png)
     
 
-- **[Arduino Nano para protoboard](https://store-usa.arduino.cc/products/arduino-nano?selectedStore=us)**
 - **Documentos Arduino Nano**
-    
-    [https://docs.arduino.cc/hardware/nano](https://docs.arduino.cc/hardware/nano)
-    
-    [Arduino Nano datasheet.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/66bca46e-a162-40b1-88b6-3d33a1e521ef/Arduino_Nano_datasheet.pdf)
-    
-    [NanoV3.3_sch.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/57a99021-4a6e-43b3-b6ac-36182a632aa5/NanoV3.3_sch.pdf)
-    
-    ![SRL-image-0.png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3c9b7f3e-2e61-42f7-a355-785956c9b48d%2FSRL-image-0.png?id=386be8c7-c5b5-4485-92cd-6f91920417d5&table=block&spaceId=c14cd858-9512-406d-b68f-90710326c6aa&width=2000&userId=7df30413-c942-494a-a0b0-083e44fa7787&cache=v2)
-    
 
-### 🔴 Selección de pines (Hardware)
-
+    [Arduino NANO_page](https://docs.arduino.cc/hardware/nano)
+    
+    [Arduino NANO_docs](https://docs.arduino.cc/hardware/uno-rev3) 
+    
+    [Arduino NANO datasheet.pdf](https://docs.arduino.cc/static/7bec940b46e1d485fa2d8a2de0dc6fce/A000005-datasheet.pdf)
+    
+    [Arduino NANO_schematics.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e0da3da-414c-4881-84b2-677c23ed2cd0/Arduino_UNO_THT_schematics.pdf)
+    
+    [Arduino NANO_pin_out](https://content.arduino.cc/assets/Pinout-NANO_latest.png)
+    
 ---
 
 ### 🔴 Flujo de diseño
