@@ -17,7 +17,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
     
     [Arduino UNO THT_schematics.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e0da3da-414c-4881-84b2-677c23ed2cd0/Arduino_UNO_THT_schematics.pdf)
     
-    ![SRL-image-0 (1).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9c4ab46b-f27c-4ff2-82ed-f7b69604c35b/SRL-image-0_(1).png)
+    ![SRL-image-0 (1).png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9c4ab46b-f27c-4ff2-82ed-f7b69604c35b%2FSRL-image-0_(1).png?id=d034c0a3-67d5-4767-907c-5ea3508ca1fc&table=block&spaceId=c14cd858-9512-406d-b68f-90710326c6aa&width=2000&userId=7df30413-c942-494a-a0b0-083e44fa7787&cache=v2)
     
 
 - **[Arduino Nano para protoboard](https://store-usa.arduino.cc/products/arduino-nano?selectedStore=us)**
@@ -29,7 +29,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
     
     [NanoV3.3_sch.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/57a99021-4a6e-43b3-b6ac-36182a632aa5/NanoV3.3_sch.pdf)
     
-    ![SRL-image-0.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c9b7f3e-2e61-42f7-a355-785956c9b48d/SRL-image-0.png)
+    ![SRL-image-0.png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3c9b7f3e-2e61-42f7-a355-785956c9b48d%2FSRL-image-0.png?id=386be8c7-c5b5-4485-92cd-6f91920417d5&table=block&spaceId=c14cd858-9512-406d-b68f-90710326c6aa&width=2000&userId=7df30413-c942-494a-a0b0-083e44fa7787&cache=v2)
     
 
 ### 🔴 Selección de pines (Hardware)
@@ -42,7 +42,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
 
 ### 1️⃣ **Diagrama de bloques**
 
-[Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ebe1323-ea36-4437-aacf-0cd48e88e487/Untitled.png)
+[Untitled]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ebe1323-ea36-4437-aacf-0cd48e88e487/Untitled.png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Feed57574-4f80-49ae-85c6-c0b61f20fa35%2FUntitled.png?id=8ffd20e6-5e7b-4c65-acc9-a666f5fe8f84&table=block&spaceId=c14cd858-9512-406d-b68f-90710326c6aa&width=2000&userId=7df30413-c942-494a-a0b0-083e44fa7787&cache=v2))
 
 ---
 
