@@ -42,7 +42,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
 
 ### 1️⃣ **Diagrama de bloques**
 
-[Untitled]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ebe1323-ea36-4437-aacf-0cd48e88e487/Untitled.png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Feed57574-4f80-49ae-85c6-c0b61f20fa35%2FUntitled.png?id=8ffd20e6-5e7b-4c65-acc9-a666f5fe8f84&table=block&spaceId=c14cd858-9512-406d-b68f-90710326c6aa&width=2000&userId=7df30413-c942-494a-a0b0-083e44fa7787&cache=v2))
+[Diagrama](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/bb68e8b30d1ae4086ffbb0f4e0d35db5ed94c46d/Ejemplos_Arduino/E02_%20Lectura_up_down/Images/E02_block_diagram.png)
 
 ---
 
@@ -54,7 +54,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
 
 ### 3️⃣ **Diagrama de flujo - code2flow**
 
-[code2flow - online interactive code to flowchart converter](https://app.code2flow.com/9HP5AKWF7g3s)
+[code2flow - flowchart](https://app.code2flow.com/e4nruAJH62zt)
 
 - High level code
     
@@ -74,72 +74,21 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
     }
     fin;
     ```
-    
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/90561c1f-a335-4315-8e1b-83013d3d6fef/Untitled.png)
-
 ---
 
 ### 4️⃣ **Firmware**
 
-```arduino
-//" ¡No copies y pegues el código, analízalo e inspirate en el! "
-
-/*************************************************************************
- *   Copyright (C) 2023 Jesús Camarena                                   *
- *   jesus.garzacmn@uanl.edu.mx                                          *
- *   Licencia: Attribution-NonCommercial-ShareAlike 3.0(CC-BY-NC-SA 3.0) *
- *   https://creativecommons.org/licenses/by-nc-sa/3.0/                  *
- *                                                                       *
- *   Ejemplo:                                                            *
- *   Dispositivo: Arduino UNO                                            *
- *   Lenguaje: Arduino                                                   *
- *   Rev: 1.0                                                            *
- *                                                     Fecha: 15/03/23   *
- ************************************************************************/
-
-//Se ejecuta solamente una vez
-void setup() 
-{
-// Configurar el pines como salidas 
-  //--Outputs
-  pinMode(13,OUTPUT); // Pin D13 es una salida
-  pinMode(12,OUTPUT); // Pin D12 es una salida
-  pinMode(11,OUTPUT); // Pin D13 es una salida
-  pinMode(10,OUTPUT); // Pin D12 es una salida
-}//Fin setup
-
-//Se ejecuta infinitamente
-void loop() 
-{
-    digitalWrite(13,HIGH); // Pin D13 esta encendido
-		delay(1000); // Retardo de 1 segundo
-    digitalWrite(13,LOW);  // Pin D12 esta apagado
-    digitalWrite(12,HIGH); // Pin D13 esta encendido
-		delay(1000); // Retardo de 1 segundo
-    digitalWrite(12,LOW);  // Pin D12 esta apagado
-    digitalWrite(11,HIGH); // Pin D13 esta encendido
-		delay(1000); // Retardo de 1 segundo
-    digitalWrite(11,LOW);  // Pin D12 esta apagado
-    digitalWrite(10,HIGH); // Pin D13 esta encendido
-		delay(1000); // Retardo de 1 segundo
-    digitalWrite(10,LOW);  // Pin D12 esta apagado
-}//Fin loop
-```
-
----
+[code](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/bb68e8b30d1ae4086ffbb0f4e0d35db5ed94c46d/Ejemplos_Arduino/E02_%20Lectura_up_down/Frimware_E02/Frimware_E02.ino)
 
 ### 5️⃣ **Simulación**
 
 [Circuit design E02_ Lectura_up_down | Tinkercad](https://www.tinkercad.com/things/drnqWRbf90d)
 
-[https://www.tinkercad.com/embed/drnqWRbf90d?editbtn=1](https://www.tinkercad.com/embed/drnqWRbf90d?editbtn=1)
-
 ---
 
 ### 6️⃣ **Prototipado**
 
-![E02_ Lectura_up_downl_fr_bb.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f312b07-ba8d-41c2-a9fc-835f10f40974/E02__Lectura_up_downl_fr_bb.png)
+![Prototipado](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/bb68e8b30d1ae4086ffbb0f4e0d35db5ed94c46d/Ejemplos_Arduino/E02_%20Lectura_up_down/Images/E02_%20Lectura_up_downl_fr_bb.png)
 
 ---
 
@@ -175,7 +124,7 @@ En el proceso de diseño de un sistema y la construcción de un prototipo se pue
     1. Revisa la conectividad de tu protobard sin que este energizado
     2. Cambia de componente asegurándote que esté alimentado al voltaje que indica el datasheet
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f10f99f-9caf-4489-a4b1-cbbda85d4380/Untitled.png)
+![Diagrama](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2f10f99f-9caf-4489-a4b1-cbbda85d4380%2FUntitled.png?id=747741c6-fba6-40f4-a5ab-dbe70686d36a&table=block&spaceId=c14cd858-9512-406d-b68f-90710326c6aa&width=2000&userId=7df30413-c942-494a-a0b0-083e44fa7787&cache=v2)
 
 ---
 
