@@ -16,7 +16,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
     
     [Arduino UNO datasheet.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09e02053-758a-4718-bc0d-f3427501147b/Arduino_UNO_datasheet.pdf)
     
-    [Arduino UNO THT_schematics.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e0da3da-414c-4881-84b2-677c23ed2cd0/Arduino_UNO_THT_schematics.pdf)
+    [Arduino UNO THT_schematics.pdf](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/a02eeecf369f5cce2e09cc8133e0435841598bbc/Documentos%20de%20dise%C3%B1o/Arduino_UNO__sch.pdf)
     
     [Arduino UNO_pin_out](https://content.arduino.cc/assets/A000066-pinout.png)
     
@@ -29,7 +29,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
     
     [Arduino NANO datasheet.pdf](https://docs.arduino.cc/static/7bec940b46e1d485fa2d8a2de0dc6fce/A000005-datasheet.pdf)
     
-    [Arduino NANO_schematics.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e0da3da-414c-4881-84b2-677c23ed2cd0/Arduino_UNO_THT_schematics.pdf)
+    [Arduino NANO_schematics.pdf](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/a02eeecf369f5cce2e09cc8133e0435841598bbc/Documentos%20de%20dise%C3%B1o/Arduino_NANO_sch.pdf)
     
     [Arduino NANO_pin_out](https://content.arduino.cc/assets/Pinout-NANO_latest.png)
     
