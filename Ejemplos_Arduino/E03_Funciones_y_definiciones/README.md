@@ -1,29 +1,7 @@
-# :closed_book: E01 - Escritura pin digital
+# 🟥 Ejemplo “**E01” - Escritura pin digital**
+Este ejemplo de escritura en pines digitales, incluye todo el proceso de diseño desde un diagramas de bloques, circuitos esquemáticos, diagramas de flujo, desarrollo de firmware y la ejecución de simulaciones.
 
-## :large_blue_diamond: Descripción
-
-
-## :globe_with_meridians: Página web
-https://www.notion.so/didyde/Entradas-y-salidas-digitales-dd1e9e80958f425582b35ef8b7124b24?pvs=4
-
-## :large_orange_diamond: Inicio
-
-### :electric_plug: Materiales
-* Tarjeta de desarrollo Arduino Uno Empaquetado DIP
-* Tarjeta de desarrollo Arduino Nano Empaquetado TQFP
-
-### :black_circle: Software IDE
-* Arduino IDE
-
-### :large_blue_circle: Software EDA
-* Proteus Design Suite
-
-### :red_circle: Software Modelado Electrónico
-* Fritzing
-* TinkerCad con Tarjeta de desarrollo Arduino Uno
-https://www.tinkercad.com/things/drnqWRbf90d
-
-## :interrobang: Ayuda
+[Ejemplo completo]([https://didyde.notion.site/Lenguaje-de-programaci-n-Arduino-294c2fc84f0e495e86cd944d03f3b3a1](https://www.notion.so/didyde/Entradas-y-salidas-digitales-dd1e9e80958f425582b35ef8b7124b24?pvs=4))
 
 ## :busts_in_silhouette: Autores
 * [Jesus Camarena](https://www.notion.so/didyde/Profesor-universitario-Dise-ador-de-hardware-para-sistemas-embebidos-81703493db3c44c4a75b49b2d536ea19)
@@ -32,9 +10,14 @@ https://www.tinkercad.com/things/drnqWRbf90d
 * 1.0
     * Initial Release
 
-## Licencia
+## :exclamation: Licencia
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## :speech_balloon: Agradecimientos
+-
+
+## 👁️‍🗨️ Otros temas
+
+[Temario página notion](https://didyde.notion.site/Programa-acad-mico-temario-y-clases-cb4c311c7e22482da48f0eeba4151561)
 
