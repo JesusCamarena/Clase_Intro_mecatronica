@@ -14,9 +14,9 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
     
     [Arduino UNO_docs](https://docs.arduino.cc/hardware/uno-rev3)
     
-    [Arduino UNO datasheet.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09e02053-758a-4718-bc0d-f3427501147b/Arduino_UNO_datasheet.pdf)
+    [Arduino UNO datasheet.pdf](https://docs.arduino.cc/static/bebf2e02f80771215770deca4eee2dd4/A000066-datasheet.pdf)
     
-    [Arduino UNO THT_schematics.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e0da3da-414c-4881-84b2-677c23ed2cd0/Arduino_UNO_THT_schematics.pdf)
+    [Arduino UNO THT_schematics.pdf](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/a02eeecf369f5cce2e09cc8133e0435841598bbc/Documentos%20de%20dise%C3%B1o/Arduino_UNO__sch.pdf)
     
     [Arduino UNO_pin_out](https://content.arduino.cc/assets/A000066-pinout.png)
     
@@ -29,7 +29,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
     
     [Arduino NANO datasheet.pdf](https://docs.arduino.cc/static/7bec940b46e1d485fa2d8a2de0dc6fce/A000005-datasheet.pdf)
     
-    [Arduino NANO_schematics.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e0da3da-414c-4881-84b2-677c23ed2cd0/Arduino_UNO_THT_schematics.pdf)
+    [Arduino NANO_schematics.pdf](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/a02eeecf369f5cce2e09cc8133e0435841598bbc/Documentos%20de%20dise%C3%B1o/Arduino_NANO_sch.pdf)
     
     [Arduino NANO_pin_out](https://content.arduino.cc/assets/Pinout-NANO_latest.png)
     
@@ -77,17 +77,17 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
 
 ### 4️⃣ **Firmware**
 
-[code](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/bb68e8b30d1ae4086ffbb0f4e0d35db5ed94c46d/Ejemplos_Arduino/E02_%20Lectura_up_down/Frimware_E02/Frimware_E02.ino)
+[code](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/ce7c56e7038d185616f0d60ec7b9b8db63652b1d/Ejemplos_Arduino/E02_%20Lectura_up_down/Frimware_E02/Frimware_E02.ino)
 
 ### 5️⃣ **Simulación**
 
-[Circuit design E02_ Lectura_up_down | Tinkercad](https://www.tinkercad.com/things/drnqWRbf90d)
+[Tinkercad](https://www.tinkercad.com/things/drnqWRbf90d)
 
 ---
 
 ### 6️⃣ **Prototipado**
 
-![Prototipado](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/bb68e8b30d1ae4086ffbb0f4e0d35db5ed94c46d/Ejemplos_Arduino/E02_%20Lectura_up_down/Images/E02_%20Lectura_up_downl_fr_bb.png)
+[Prototipado](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/15802eeb0c64c5c5a7ab0ae0893b2c06ad198c0e/Ejemplos_Arduino/E02_%20Lectura_up_down/Images/E02_%20Lectura_up_downl_fr_bb.png)
 
 ---
 
