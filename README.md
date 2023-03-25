@@ -4,11 +4,9 @@
 El repositorio de clases de introducción a la mecatrónica contiene recursos prácticos, ejemplos de programación en Arduino y diseño mecatrónico. Está enfocado en ayudar a estudiantes y desarrolladores a aprender y desarrollar diferentes proyectos y aplicaciones.
 
 ## :globe_with_meridians: Página web
-[enlace](https://www.notion.so/didyde/Introducci-n-a-la-Mecatr-nica-2a17bf4027ab4fed8676d25c450b323f)
+[Enlace al proyecto completo](https://www.notion.so/didyde/Introducci-n-a-la-Mecatr-nica-2a17bf4027ab4fed8676d25c450b323f)
 
-## :large_orange_diamond: Inicio
-
-### :electric_plug: Materiales principales
+## :electric_plug: Materiales principales
 * Tarjeta de desarrollo Arduino UNO  (Atmega328p DIP)
 * Tarjeta de desarrollo Arduino Nano (Atmega328p TQFP)
 
