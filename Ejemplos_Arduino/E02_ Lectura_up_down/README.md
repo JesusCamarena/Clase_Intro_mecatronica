@@ -77,7 +77,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
 
 ### 4️⃣ **Firmware**
 
-[code](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/bb68e8b30d1ae4086ffbb0f4e0d35db5ed94c46d/Ejemplos_Arduino/E02_%20Lectura_up_down/Frimware_E02/Frimware_E02.ino)
+[code](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/ce7c56e7038d185616f0d60ec7b9b8db63652b1d/Ejemplos_Arduino/E02_%20Lectura_up_down/Frimware_E02/Frimware_E02.ino)
 
 ### 5️⃣ **Simulación**
 
