@@ -1,7 +1,7 @@
-# 🟥 Ejemplo “**E01” - Escritura pin digital**
-Este ejemplo de escritura en pines digitales, incluye todo el proceso de diseño desde un diagramas de bloques, circuitos esquemáticos, diagramas de flujo, desarrollo de firmware y la ejecución de simulaciones.
+# 🟥 Ejemplo “**Ejemplo “E03” - Funciones y constantes**
+Este ejemplo muestra cómo utilizar funciones y constantes en un proyecto de Arduino para controlar LEDs y crear una secuencia de luces. El documento también proporciona un análisis de problemas comunes que se pueden presentar en el proceso de diseño e implementación de un prototipo y cómo solucionarlos.
 
-[Ejemplo completo]([https://didyde.notion.site/Lenguaje-de-programaci-n-Arduino-294c2fc84f0e495e86cd944d03f3b3a1](https://www.notion.so/didyde/Entradas-y-salidas-digitales-dd1e9e80958f425582b35ef8b7124b24?pvs=4))
+[Ejemplo completo](https://didyde.notion.site/Funciones-ejemplo-89bcf63d7e7147e1bb6d194acd834aa9)
 
 ## :busts_in_silhouette: Autores
 * [Jesus Camarena](https://www.notion.so/didyde/Profesor-universitario-Dise-ador-de-hardware-para-sistemas-embebidos-81703493db3c44c4a75b49b2d536ea19)
@@ -12,7 +12,7 @@ Este ejemplo de escritura en pines digitales, incluye todo el proceso de diseño
 
 ## :exclamation: Licencia
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [NAME HERE] 
 
 ## :speech_balloon: Agradecimientos
 -
