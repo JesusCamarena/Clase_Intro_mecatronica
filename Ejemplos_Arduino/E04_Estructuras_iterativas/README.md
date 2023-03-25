@@ -1,29 +1,7 @@
-# :closed_book: E01 - Escritura pin digital
+# 🟥 Ejemplo “**Ejemplo “E04” - Estructuras de control iterativas**
+El ejemplo muestra cómo utilizar las estructuras de control iterativas en Arduino. Incluye ejemplos de las tres estructuras de control iterativas (for, while, y do-while), así como ejemplos de las palabras clave break y continue. También se muestra cómo utilizar arreglos de datos en Arduino. El ejemplo en sí mismo es un programa que enciende y apaga una secuencia de LEDs en un patrón determinado.
 
-## :large_blue_diamond: Descripción
-
-
-## :globe_with_meridians: Página web
-https://www.notion.so/didyde/Entradas-y-salidas-digitales-dd1e9e80958f425582b35ef8b7124b24?pvs=4
-
-## :large_orange_diamond: Inicio
-
-### :electric_plug: Materiales
-* Tarjeta de desarrollo Arduino Uno Empaquetado DIP
-* Tarjeta de desarrollo Arduino Nano Empaquetado TQFP
-
-### :black_circle: Software IDE
-* Arduino IDE
-
-### :large_blue_circle: Software EDA
-* Proteus Design Suite
-
-### :red_circle: Software Modelado Electrónico
-* Fritzing
-* TinkerCad con Tarjeta de desarrollo Arduino Uno
-https://www.tinkercad.com/things/drnqWRbf90d
-
-## :interrobang: Ayuda
+[Ejemplo completo](https://didyde.notion.site/Estructuras-de-control-iterativas-ejemplo-a87039e272684a3c835a39931a6c396f)
 
 ## :busts_in_silhouette: Autores
 * [Jesus Camarena](https://www.notion.so/didyde/Profesor-universitario-Dise-ador-de-hardware-para-sistemas-embebidos-81703493db3c44c4a75b49b2d536ea19)
@@ -32,9 +10,14 @@ https://www.tinkercad.com/things/drnqWRbf90d
 * 1.0
     * Initial Release
 
-## Licencia
+## :exclamation: Licencia
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [NAME HERE] 
 
 ## :speech_balloon: Agradecimientos
+-
+
+## 👁️‍🗨️ Otros temas
+
+[Temario página notion](https://didyde.notion.site/Programa-acad-mico-temario-y-clases-cb4c311c7e22482da48f0eeba4151561)
 
