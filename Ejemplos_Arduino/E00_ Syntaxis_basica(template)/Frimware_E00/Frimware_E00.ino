@@ -16,14 +16,29 @@
 //comentario corto
 /*comentario largo */
 
+//-------------declarations---------------//
+//--Constants
+
+//--Global variable
+
+//--Tags
+//-Inputs
+//-Outputs
+
+//--Macro
+
+//-------------setup()--------------------//
 /*Se ejecuta solamente una vez*/
 void setup() 
 {
     // Código de configuración inicial
 }//Fin setup
 
+//-------------loop()--------------------//
 /*Se ejecuta infinitamente*/
 void loop() 
 {
     // Código que se ejecuta repetidamente
 }//Fin loop
+
+//-------------functions()--------------//
