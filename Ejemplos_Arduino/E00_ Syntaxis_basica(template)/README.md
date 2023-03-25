@@ -1,26 +1,20 @@
-# Lenguaje de programación Arduino
+# 🟥 Ejemplo “**E00” - Syntaxis básica**
 
-# 🔸 Introducción
+[Ejemplo completo](https://didyde.notion.site/Entradas-y-salidas-digitales-ejemplo-dd1e9e80958f425582b35ef8b7124b24)
 
----
+## :busts_in_silhouette: Autores
+* [Jesus Camarena](https://www.notion.so/didyde/Profesor-universitario-Dise-ador-de-hardware-para-sistemas-embebidos-81703493db3c44c4a75b49b2d536ea19)
 
-El lenguaje de programación de Arduino es una versión simplificada y adaptada de C++ específicamente diseñada para facilitar el desarrollo de proyectos en la plataforma Arduino. El lenguaje de Arduino utiliza la librería Wiring, que proporciona funciones y macros específicas para interactuar con el hardware de la placa Arduino, como leer y escribir en pines digitales y analógicos, comunicación serial, y temporizadores, entre otros.
+## :ballot_box_with_check: Historial de versiones
+* 1.0
+    * Initial Release
 
-**`Tabla de contenido`**
+## Licencia
 
-# 🔷 Fundamento Teórico
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
----
+## :speech_balloon: Agradecimientos
 
-Aunque el lenguaje de Arduino está basado en C++, hay algunas diferencias y simplificaciones que lo hacen más accesible para principiantes y adecuado para la plataforma Arduino. A continuación, se describen las principales características del lenguaje de programación de Arduino:
-
-1. **Estructura básica:** Un programa de Arduino, llamado "sketch", consta de dos funciones principales que deben estar presentes en cada sketch:
-    - **`void setup()`**: Esta función se ejecuta una vez al iniciar el programa y se utiliza para configurar la inicialización de pines, comunicación serial y cualquier otro parámetro necesario antes de que el programa principal empiece a ejecutarse.
-    - **`void loop()`**: Esta función se ejecuta de forma repetitiva después de que la función **`setup()`** haya terminado. Aquí es donde se coloca la lógica principal del programa, como leer sensores, controlar actuadores y procesar datos.
-2. **Comentarios:** Al igual que en C++ y otros lenguajes de programación, puedes utilizar comentarios en tus sketches para explicar partes del código o para desactivar temporalmente ciertas líneas de código. Arduino admite comentarios de una línea usando **`//`** y comentarios de varias líneas usando **`/*`** y **`/`**.
-3. **Funciones y librerías:** El lenguaje de Arduino viene con una serie de funciones incorporadas para interactuar con el hardware de la placa, como **`digitalWrite()`**, **`analogRead()`**, **`millis()`**, entre otras. Además, hay muchas librerías disponibles que amplían las capacidades de Arduino y facilitan la implementación de funcionalidades adicionales, como controlar pantallas LCD, comunicación inalámbrica y trabajar con sensores específicos.
-4. **Variables y tipos de datos:** El lenguaje de Arduino admite una variedad de tipos de datos básicos, como **`int`**, **`float`**, **`char`**, **`boolean`** y **`String`**. También es posible definir estructuras personalizadas y utilizar punteros, como en C++.
-5. **Control de flujo:** Las estructuras de control de flujo en el lenguaje de Arduino son similares a las de C++ y otros lenguajes de programación. Estas incluyen condicionales (if, else, switch), bucles (for, while, do-while) y control de flujo (break, continue, return).
 
 ---
 
