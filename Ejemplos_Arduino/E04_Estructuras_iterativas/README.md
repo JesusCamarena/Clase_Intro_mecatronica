@@ -1,4 +1,4 @@
-# 🟥 Ejemplo “**Ejemplo “E04” - Estructuras de control iterativas**
+# **Ejemplo “E04” - Estructuras de control iterativas**
 El ejemplo muestra cómo utilizar las estructuras de control iterativas en Arduino. Incluye ejemplos de las tres estructuras de control iterativas (for, while, y do-while), así como ejemplos de las palabras clave break y continue. También se muestra cómo utilizar arreglos de datos en Arduino. El ejemplo en sí mismo es un programa que enciende y apaga una secuencia de LEDs en un patrón determinado.
 
 [Ejemplo completo](https://didyde.notion.site/Estructuras-de-control-iterativas-ejemplo-a87039e272684a3c835a39931a6c396f)
