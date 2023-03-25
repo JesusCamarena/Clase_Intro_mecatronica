@@ -48,7 +48,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
 
 ### 2️⃣ **Circuito esquemático**
 
-[E02_ Lectura_up_down.PDF](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1615eff8-81d6-48e6-9b6f-8578e6756344/E02__Lectura_up_down.pdf)
+[E02_ Lectura_up_down.PDF](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/main/Ejemplos_Arduino/E02_%20Lectura_up_down/Hardware/E02_%20Lectura_up_down.PDF)
 
 ---
 
