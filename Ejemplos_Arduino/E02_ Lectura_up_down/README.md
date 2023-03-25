@@ -42,7 +42,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
 
 ### 1️⃣ **Diagrama de bloques**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ebe1323-ea36-4437-aacf-0cd48e88e487/Untitled.png)
+[Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ebe1323-ea36-4437-aacf-0cd48e88e487/Untitled.png)
 
 ---
 
@@ -176,6 +176,8 @@ En el proceso de diseño de un sistema y la construcción de un prototipo se pue
     2. Cambia de componente asegurándote que esté alimentado al voltaje que indica el datasheet
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f10f99f-9caf-4489-a4b1-cbbda85d4380/Untitled.png)
+
+---
 
 ---
 
