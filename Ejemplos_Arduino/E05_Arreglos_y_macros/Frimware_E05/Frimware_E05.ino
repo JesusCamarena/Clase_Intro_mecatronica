@@ -14,15 +14,17 @@
 //--------------------------------INICO---------------------------------//
 
 //--Etiquetas
-const byte LED0 = 8;
-const byte LED1 = 9;
-const byte LED2 = 10;
-const byte LED3 = 11;
-const byte LED4 = 12;
-const byte LED5 = 13;
+//-Outputs
+const byte LED0 = 2;
+const byte LED1 = 3;
+const byte LED2 = 4;
+const byte LED3 = 5;
+const byte LED4 = 6;
+const byte LED5 = 7;
 const byte numero_de_salidas = 6;
 
 //--Macro
+//-Outputs
 //LED0
 #define LED0_ON()   digitalWrite(LED0,HIGH)
 #define LED0_OFF()  digitalWrite(LED0,LOW)
@@ -35,6 +37,12 @@ const byte numero_de_salidas = 6;
 //LED3
 #define LED3_ON()   digitalWrite(LED3,HIGH)
 #define LED3_OFF()  digitalWrite(LED3,LOW)
+//LED4
+#define LED4_ON()   digitalWrite(LED4,HIGH)
+#define LED4_OFF()  digitalWrite(LED4,LOW)
+//LED5
+#define LED5_ON()   digitalWrite(LED5,HIGH)
+#define LED5_OFF()  digitalWrite(LED5,LOW)
 
 //--Constantes
 #define RETARDO 500
