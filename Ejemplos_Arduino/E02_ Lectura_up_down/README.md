@@ -8,10 +8,10 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
 
 ---
 
-- [**Arduino UNO**](https://store-usa.arduino.cc/products/arduino-uno-rev3?selectedStore=us)
 - **Documentos Arduino UNO**
+    [Arduino UNO](https://store-usa.arduino.cc/products/arduino-uno-rev3?selectedStore=us)
     
-    [https://docs.arduino.cc/hardware/uno-rev3](https://docs.arduino.cc/hardware/uno-rev3)
+    [AUNO_docs]([https://docs.arduino.cc/hardware/uno-rev3](https://docs.arduino.cc/hardware/uno-rev3))
     
     [Arduino UNO datasheet.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09e02053-758a-4718-bc0d-f3427501147b/Arduino_UNO_datasheet.pdf)
     
