@@ -41,7 +41,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
 
 ### 1️⃣ **Diagrama de bloques**
 
-[Diagrama](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/bb68e8b30d1ae4086ffbb0f4e0d35db5ed94c46d/Ejemplos_Arduino/E02_%20Lectura_up_down/Images/E02_block_diagram.png)
+[Diagrama](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/f408c853207fa1147273cbf7cdceeab1fe555cdd/Ejemplos_Arduino/E02_%20Lectura_up_down/Images/E02_block_diagram.png)
 
 ---
 
