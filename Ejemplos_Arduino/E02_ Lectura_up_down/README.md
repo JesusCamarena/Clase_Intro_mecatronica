@@ -14,7 +14,7 @@ En este ejemplo trata sobre la lectura secuencial de instrucciones en Arduino, q
     
     [Arduino UNO_docs](https://docs.arduino.cc/hardware/uno-rev3)
     
-    [Arduino UNO datasheet.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09e02053-758a-4718-bc0d-f3427501147b/Arduino_UNO_datasheet.pdf)
+    [Arduino UNO datasheet.pdf](https://docs.arduino.cc/static/bebf2e02f80771215770deca4eee2dd4/A000066-datasheet.pdf)
     
     [Arduino UNO THT_schematics.pdf](https://github.com/JesusCamarena/Clase_Intro_mecatronica/blob/a02eeecf369f5cce2e09cc8133e0435841598bbc/Documentos%20de%20dise%C3%B1o/Arduino_UNO__sch.pdf)
     
