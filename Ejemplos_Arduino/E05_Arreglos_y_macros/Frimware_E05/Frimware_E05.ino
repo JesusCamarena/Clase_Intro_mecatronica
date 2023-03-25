@@ -14,17 +14,14 @@
 //--------------------------------INICO---------------------------------//
 
 //--Etiquetas
-//-Outputs
-const byte LED0 = 2;
-const byte LED1 = 3;
-const byte LED2 = 4;
-const byte LED3 = 5;
-const byte LED4 = 6;
-const byte LED5 = 7;
-const byte numero_de_salidas = 6;
+#define LED0 2
+#define LED1 3
+#define LED2 4
+#define LED3 5
+#define LED4 6
+#define LED5 7
 
 //--Macro
-//-Outputs
 //LED0
 #define LED0_ON()   digitalWrite(LED0,HIGH)
 #define LED0_OFF()  digitalWrite(LED0,LOW)
@@ -46,38 +43,31 @@ const byte numero_de_salidas = 6;
 
 //--Constantes
 #define RETARDO 500
-#define RETARDO_1s 1000
 
 //--Variables
+//byte iteracion = 0;
 
-//--Arreglos
-byte pin_salida[numero_de_salidas] = {LED0,LED1,LED2,LED3,LED4,LED5};
+//Arreglos
 
 //--------------------------------SETUP---------------------------------//
 void setup() 
 {
-//Arreglo para establecer los pines seleccionados como salidas
+//Configurar el pines como salidas 
   //--Outputs
-  for (byte i = 0;i < numero_de_salidas;i++)
-  {
-    pinMode(pin_salida[i],OUTPUT); // Pines es salidas
-  }//Fin_for
-  
+  pinMode(LED0,OUTPUT); // LED0 es una salida
+  pinMode(LED1,OUTPUT); // LED1 es una salida
+  pinMode(LED2,OUTPUT); // LED2 es una salida
+  pinMode(LED3,OUTPUT); // LED3 es una salida
+  pinMode(LED4,OUTPUT); // LED4 es una salida
+  pinMode(LED5,OUTPUT); // LED5 es una salida
+
 }//Fin setup
 
 //---------------------------------LOOP---------------------------------//
 void loop()//while(1)
 {
-  Apagar_leds();
-  delay(RETARDO_1s);
-  Encender_leds();
-  delay(RETARDO_1s);
-  Apagar_leds();
-  delay(RETARDO_1s);
-  Secuencia_leds_for_left();  // llama a la función
+  Secuencia_leds_for_left();    // llama a la función
   Secuencia_leds_for_right(); // llama a la función
-  Encender_leds();
-  delay(RETARDO_1s);
 }//Fin loop
 
 //-----------------------------FUNCIONES()------------------------------//
@@ -90,10 +80,12 @@ void loop()//while(1)
 //***********************************************************************
 void Encender_leds(void)
 {
-  for (byte i = LED0;i<=LED5;i++)
-  {
-    digitalWrite(i, HIGH);// Enciende el numero del led elegido
-  }//Finfor
+  LED0_ON();// LED0 esta encendido
+  LED1_ON();// LED1 esta encendido
+  LED2_ON();// LED2 esta encendido
+  LED3_ON();// LED3 esta encendido
+  LED4_ON();// LED4 esta encendido
+  LED5_ON();// LED5 esta encendido
 }//Fin_Encender_leds
 
 //***********************************************************************
@@ -105,10 +97,12 @@ void Encender_leds(void)
 //***********************************************************************
 void Apagar_leds(void)
 {
-  for (byte i = LED0;i<=LED5;i++)
-  {
-    digitalWrite(i, LOW);// Enciende el numero del led elegido
-  }//Fin_for
+  LED0_OFF();// LED0 esta apagado
+  LED1_OFF();// LED1 esta apagado
+  LED2_OFF();// LED2 esta apagado
+  LED3_OFF();// LED3 esta apagado
+  LED4_OFF();// LED4 esta apagado
+  LED5_OFF();// LED5 esta apagado
 }//Fin_Apagar_leds
 
 //***********************************************************************
@@ -120,13 +114,13 @@ void Apagar_leds(void)
 //***********************************************************************
 void Secuencia_leds_for_left(void)
 {
-  Apagar_leds();
-  for (byte i = LED0;i<LED5;i++)
+  //Inicia en el LED0 -> 02 y termina en el LED5 -> 07
+  for (byte i = 2;i<8;i++)
   {
     digitalWrite(i, HIGH);// Enciende el numero del led elegido
     delay(RETARDO);       // Retardo 
     digitalWrite(i, LOW); // Apaga el numero del led elegido
-  }//Fin_for
+  }//Finfor
 }//Fin_Secuencia_leds_for_left
 
 //***********************************************************************
@@ -139,7 +133,7 @@ void Secuencia_leds_for_left(void)
 void Secuencia_leds_for_right(void)
 {
   Apagar_leds();
-  for (byte i = LED5;i>=LED0;i--)
+  for (byte i = 7;i>=2;i--)
   {
     digitalWrite(i, HIGH);// Enciende el numero del led elegido
     delay(RETARDO);       // Retardo 
