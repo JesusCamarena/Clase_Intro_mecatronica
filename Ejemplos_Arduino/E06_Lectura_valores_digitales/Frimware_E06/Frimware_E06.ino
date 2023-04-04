@@ -15,59 +15,59 @@
 
 //--Etiquetas
 //-Outputs
-const byte LED0 = 2;
+const byte LED0 = 4;
 const byte LED1 = 3;
-const byte LED2 = 4;
+const byte LED2 = 2;
 const byte numero_de_leds = 3;
 
 //-Inputs
-const byte BTN2 = 8;
-const byte DSW1 = 9;
+// Cualquier pin puede ser entrada o salida incluso los analógicos
+const byte BTN1 = A0;
+const byte DSW1 = A1;
 const byte numero_de_botones = 2;
 
 //--Macro
 //-Outputs
 //LED0
-#define LED0_ON()   digitalWrite(LED0,HIGH)
-#define LED0_OFF()  digitalWrite(LED0,LOW)
-//LED1
-#define LED1_ON()   digitalWrite(LED1,HIGH)
-#define LED1_OFF()  digitalWrite(LED1,LOW)
-//LED2
-#define LED2_ON()   digitalWrite(LED2,HIGH)
-#define LED2_OFF()  digitalWrite(LED2,LOW)
-
+#define LED0_ON   digitalWrite(LED0,HIGH)
+#define LED0_OFF  digitalWrite(LED0,LOW)
 
 //--Constantes
 #define RETARDO 500
 #define RETARDO_1s 1000
 
 //--Variables
+bool value_DSW1 = 0;
+bool value_BTN1 = 0;
 
 //--Arreglos
 byte led_pin_salida[numero_de_leds] = {LED0,LED1,LED2};
-byte boton_pin_entrada[numero_de_botones] = {BTN2,DSW1};
+byte boton_pin_entrada[numero_de_botones] = {BTN1,DSW1};
 
 //--------------------------------SETUP---------------------------------//
 void setup() 
 {
-//Arreglo para establecer los pines seleccionados como salidas
-  //-Outputs
-  Init_leds();
-  Init_botones();
-  
+  Init_leds();// Funcion para inicializar leds como salidas
+  Init_botones();// Funcion para inicializar botones como entradas
 }//Fin setup
 
 //---------------------------------LOOP---------------------------------//
 void loop()//while(1)
 {
- 
+  //-Escribe el valor de la entrada en la salida
+  digitalWrite(LED0, digitalRead(DSW1));
+  
+  //-Guarda en una variable el valor de entrada
+  value_BTN1 = digitalRead(BTN1);//HIGH or LOW?
+  digitalWrite(LED1, value_BTN1);//Led es igual a la variable
+  digitalWrite(LED2, value_BTN1);//Led es igual a la variable
+
 }//Fin loop
 
 //-----------------------------FUNCIONES()------------------------------//
 
 //***********************************************************************
-//* Descripcion: Funcion de para inicializar leds
+//* Descripcion: Funcion para inicializar leds
 //* Prototype: void Init_leds(void);
 //* Call: Init_leds();
 //* Retorno: void
@@ -82,7 +82,7 @@ void Init_leds(void)
 }//Fin_Init_leds
 
 //***********************************************************************
-//* Descripcion: Funcion de para inicializar botones
+//* Descripcion: Funcion para inicializar botones
 //* Prototype: void Init_botones(void);
 //* Call: Init_botones();
 //* Retorno: void
@@ -105,10 +105,10 @@ void Init_botones(void)
 //***********************************************************************
 void Encender_leds(void)
 {
-  for (byte i = LED0;i<=LED2;i++)
+  for (byte i = 0;i < numero_de_leds;i++)
   {
-    digitalWrite(i, HIGH);// Enciende el numero del led elegido
-  }//Finfor
+    digitalWrite(led_pin_salida[i],HIGH); // Pines es salidas
+  }//Fin_for
 }//Fin_Encender_leds
 
 //***********************************************************************
@@ -120,8 +120,8 @@ void Encender_leds(void)
 //***********************************************************************
 void Apagar_leds(void)
 {
-  for (byte i = LED0;i<=LED2;i++)
+  for (byte i = 0;i < numero_de_leds;i++)
   {
-    digitalWrite(i, LOW);// Enciende el numero del led elegido
+    digitalWrite(led_pin_salida[i],LOW); // Pines es salidas
   }//Fin_for
 }//Fin_Apagar_leds
