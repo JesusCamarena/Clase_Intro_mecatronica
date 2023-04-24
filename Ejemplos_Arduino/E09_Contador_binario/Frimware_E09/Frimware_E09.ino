@@ -16,103 +16,83 @@
 //--Etiquetas
 //-Inputs
 //Sensores
-const byte tarjeta_de_acceso = 12;
-const byte codigo_pin        = 11;
-const byte numero_de_sensores = 2;
+const byte button2_pin = 11;
+const byte dswitch1_1_pin  = 12;
+const byte numero_de_pulsadores = 2;
 
 //-Outputs
 //Actuadores
-const byte alarma = 3;
-const byte puerta = 2;
-const byte numero_de_actuadores = 2;
+const byte led0_pin = 2;
+const byte led1_pin = 3;
+const byte led2_pin = 4;
+const byte led3_pin = 5;
+const byte numero_de_leds = 4;
 
 //--Constantes
-#define ON  HIGH
-#define OFF LOW
 
 //--Variables
-bool value_tarjeta_de_acceso = 0;
-bool value_codigo_pin = 0;
+bool button2_value = 0;
+bool dswitch1_1_value = 0;
+byte counter = 0; //Variable de 8 bits para guardar el conteo
 
 //--Arreglos
 //-Inputs
 //Sensores
-byte pin_entrada_sensores[numero_de_sensores] = 
-    {tarjeta_de_acceso,
-     numero_de_sensores};
+byte pulsadores_pins[numero_de_pulsadores] = 
+     {button2_pin,
+      dswitch1_1_pin};
     
 //-Outputs
 //Actuadores
-byte pin_salida_actuadores[numero_de_actuadores] = 
-    {alarma,
-     puerta};
+byte led_pins[numero_de_leds] = 
+     {led0_pin,
+      led1_pin,
+      led2_pin,
+      led3_pin};
 //--------------------------------SETUP---------------------------------//
 void setup() 
 {
-  Init_sensores();// Funcion para inicializar sensores como entradas
-  Init_actuadores();// Funcion para inicializar actuadores como salidas
+  Init_pulsadores();// Funcion para inicializar los pulsadores
+  Init_leds();// Funcion para inicializar actuadores como salidas
 }//Fin setup
 
 //---------------------------------LOOP---------------------------------//
 void loop()//while(1)
 {
-  value_tarjeta_de_acceso = digitalRead(tarjeta_de_acceso);
-  value_codigo_pin = digitalRead(codigo_pin);
-  //m = 0
-  if (!value_tarjeta_de_acceso && !value_codigo_pin)
-  {
-    digitalWrite(puerta,OFF);
-    digitalWrite(alarma,OFF);
-  } //Fin_if_1_encadenado
-  //m = 1
-  else if (!value_tarjeta_de_acceso && value_codigo_pin)
-  {
-    digitalWrite(puerta,OFF);
-    digitalWrite(alarma,OFF);
-  } //Fin_else_if_1_encadenado
-  //m = 2
-  else if (value_tarjeta_de_acceso && !value_codigo_pin)
-  {
-    digitalWrite(puerta,OFF);
-    digitalWrite(alarma,ON);
-  } //Fin_else_if_2_encadenado
-	//m = 3
-  else if (value_tarjeta_de_acceso && value_codigo_pin)
-  {
-    digitalWrite(puerta,ON);
-    digitalWrite(alarma,OFF);
-  } //Fin_else_if_3_encadenado
-
+  button2_value    = digitalRead(button2_pin);
+  dswitch1_1_value = digitalRead(dswitch1_1_pin);
+  if (button2_value)
+  
 }//Fin loop
 
 //-----------------------------FUNCIONES()------------------------------//
 
 //***********************************************************************
-//* Descripcion: Funcion para inicializar sensores
-//* Prototype: void Init_sensores(void);
-//* Call: Init_sensores();
+//* Descripcion: Funcion para inicializar los pulsadores
+//* Prototype: void Init_pulsadores(void);
+//* Call: Init_pulsadores();
 //* Retorno: void
 //* Argumentos: void
 //***********************************************************************
-void Init_sensores(void)
+void Init_pulsadores(void)
 {
-  for (byte i = 0;i < numero_de_sensores;i++)
+  for (byte i = 0;i < numero_de_pulsadores;i++)
   {
-    pinMode(pin_entrada_sensores[i],OUTPUT); // Pines es salidas
+    pinMode(pulsadores_pins[i],INPUT); // Pines es salidas
   }//Fin_for
 }//Fin_Init_sensores
 
 //***********************************************************************
-//* Descripcion: Funcion para inicializar pulsadores
-//* Prototype: void Init_actuadores(void);
-//* Call: Init_actuadores();
+//* Descripcion: Funcion para inicializar leds
+//* Prototype: void Init_leds(void);
+//* Call: Init_leds();
 //* Retorno: void
 //* Argumentos: void
 //***********************************************************************
-void Init_actuadores(void)
+void Init_leds(void)
 {
-  for (byte i = 0;i < numero_de_actuadores;i++)
+  for (byte i = 0;i < numero_de_leds;i++)
   {
-    pinMode(pin_salida_actuadores[i],INPUT); // Pines entradas
+    pinMode(led_pins[i],OUTPUT); // Pines entradas
   }//Fin_for
 }//Fin_Init_actuadores

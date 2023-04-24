@@ -12,19 +12,7 @@
  *                                                     Fecha: 25/03/23   *
  ************************************************************************/
 //--------------------------------INICO---------------------------------//
-
-//--Etiquetas
-//-Inputs
-//Sensores
-const byte tarjeta_de_acceso = 12;
-const byte codigo_pin        = 11;
-const byte numero_de_sensores = 2;
-
-//-Outputs
-//Actuadores
-const byte alarma = 3;
-const byte puerta = 2;
-const byte numero_de_actuadores = 2;
+//--Bibliotecas
 
 //--Constantes
 #define ON  HIGH
@@ -34,18 +22,6 @@ const byte numero_de_actuadores = 2;
 bool value_tarjeta_de_acceso = 0;
 bool value_codigo_pin = 0;
 
-//--Arreglos
-//-Inputs
-//Sensores
-byte pin_entrada_sensores[numero_de_sensores] = 
-    {tarjeta_de_acceso,
-     numero_de_sensores};
-    
-//-Outputs
-//Actuadores
-byte pin_salida_actuadores[numero_de_actuadores] = 
-    {alarma,
-     puerta};
 //--------------------------------SETUP---------------------------------//
 void setup() 
 {
@@ -56,27 +32,32 @@ void setup()
 //---------------------------------LOOP---------------------------------//
 void loop()//while(1)
 {
+  //Guardar valores de los sensores
   value_tarjeta_de_acceso = digitalRead(tarjeta_de_acceso);
   value_codigo_pin = digitalRead(codigo_pin);
+  
   //m = 0
   if (!value_tarjeta_de_acceso && !value_codigo_pin)
   {
     digitalWrite(puerta,OFF);
     digitalWrite(alarma,OFF);
   } //Fin_if_1_encadenado
+  
   //m = 1
   else if (!value_tarjeta_de_acceso && value_codigo_pin)
   {
     digitalWrite(puerta,OFF);
     digitalWrite(alarma,OFF);
   } //Fin_else_if_1_encadenado
+  
   //m = 2
   else if (value_tarjeta_de_acceso && !value_codigo_pin)
   {
     digitalWrite(puerta,OFF);
     digitalWrite(alarma,ON);
   } //Fin_else_if_2_encadenado
-	//m = 3
+  
+  //m = 3
   else if (value_tarjeta_de_acceso && value_codigo_pin)
   {
     digitalWrite(puerta,ON);
@@ -86,33 +67,3 @@ void loop()//while(1)
 }//Fin loop
 
 //-----------------------------FUNCIONES()------------------------------//
-
-//***********************************************************************
-//* Descripcion: Funcion para inicializar sensores
-//* Prototype: void Init_sensores(void);
-//* Call: Init_sensores();
-//* Retorno: void
-//* Argumentos: void
-//***********************************************************************
-void Init_sensores(void)
-{
-  for (byte i = 0;i < numero_de_sensores;i++)
-  {
-    pinMode(pin_entrada_sensores[i],OUTPUT); // Pines es salidas
-  }//Fin_for
-}//Fin_Init_sensores
-
-//***********************************************************************
-//* Descripcion: Funcion para inicializar pulsadores
-//* Prototype: void Init_actuadores(void);
-//* Call: Init_actuadores();
-//* Retorno: void
-//* Argumentos: void
-//***********************************************************************
-void Init_actuadores(void)
-{
-  for (byte i = 0;i < numero_de_actuadores;i++)
-  {
-    pinMode(pin_salida_actuadores[i],INPUT); // Pines entradas
-  }//Fin_for
-}//Fin_Init_actuadores
