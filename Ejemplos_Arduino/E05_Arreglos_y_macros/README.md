@@ -4,7 +4,7 @@
 
 
 ## :globe_with_meridians: Documentación
-https://www.notion.so/didyde/Entradas-y-salidas-digitales-dd1e9e80958f425582b35ef8b7124b24?pvs=4
+
 
 ## :large_orange_diamond: Inicio
 
