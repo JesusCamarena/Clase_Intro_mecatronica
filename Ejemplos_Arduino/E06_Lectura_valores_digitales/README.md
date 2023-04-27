@@ -5,6 +5,8 @@
 
 ## :globe_with_meridians: Documentación
 
+##	:notebook: TINKERCAD PROJECT
+
 ## :busts_in_silhouette: Autores
 * [Jesus Camarena](https://www.notion.so/didyde/Profesor-universitario-Dise-ador-de-hardware-para-sistemas-embebidos-81703493db3c44c4a75b49b2d536ea19)
 
