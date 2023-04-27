@@ -11,8 +11,8 @@ Este ejemplo muestra cómo utilizar funciones y constantes en un proyecto de Ard
     * Initial Release
 
 ## :exclamation: Licencia
-
-This project is licensed under the [NAME HERE] 
+ * This project is licensed under the [Attribution-NonCommercial-ShareAlike 3.0(CC-BY-NC-SA 3.0)] 
+ * License - see the LICENSE.md file for details or read it here https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 ## :speech_balloon: Agradecimientos
 -
