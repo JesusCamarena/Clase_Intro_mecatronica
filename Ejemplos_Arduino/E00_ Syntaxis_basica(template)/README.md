@@ -1,6 +1,7 @@
 # 🟥 Ejemplo “**E00” - Syntaxis básica**
 El lenguaje de programación de Arduino es una versión simplificada y adaptada de C++ específicamente diseñada para facilitar el desarrollo de proyectos en la plataforma Arduino. El lenguaje de Arduino utiliza la librería Wiring, que proporciona funciones y macros específicas para interactuar con el hardware de la placa Arduino, como leer y escribir en pines digitales y analógicos, comunicación serial, y temporizadores, entre otros.
 
+## :Documentacion
 [Ejemplo completo](https://didyde.notion.site/Lenguaje-de-programaci-n-Arduino-294c2fc84f0e495e86cd944d03f3b3a1)
 
 ## :busts_in_silhouette: Autores
