@@ -1,29 +1,9 @@
-# :closed_book: E01 - Escritura pin digital
+# :closed_book: **"E06" - Lectura de valores digitales**
 
 ## :large_blue_diamond: Descripción
 
 
-## :globe_with_meridians: Página web
-https://www.notion.so/didyde/Entradas-y-salidas-digitales-dd1e9e80958f425582b35ef8b7124b24?pvs=4
-
-## :large_orange_diamond: Inicio
-
-### :electric_plug: Materiales
-* Tarjeta de desarrollo Arduino Uno Empaquetado DIP
-* Tarjeta de desarrollo Arduino Nano Empaquetado TQFP
-
-### :black_circle: Software IDE
-* Arduino IDE
-
-### :large_blue_circle: Software EDA
-* Proteus Design Suite
-
-### :red_circle: Software Modelado Electrónico
-* Fritzing
-* TinkerCad con Tarjeta de desarrollo Arduino Uno
-https://www.tinkercad.com/things/drnqWRbf90d
-
-## :interrobang: Ayuda
+## :globe_with_meridians: Documentación
 
 ## :busts_in_silhouette: Autores
 * [Jesus Camarena](https://www.notion.so/didyde/Profesor-universitario-Dise-ador-de-hardware-para-sistemas-embebidos-81703493db3c44c4a75b49b2d536ea19)
@@ -32,9 +12,14 @@ https://www.tinkercad.com/things/drnqWRbf90d
 * 1.0
     * Initial Release
 
-## Licencia
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+## :exclamation: Licencia
+ * This project is licensed under the [Attribution-NonCommercial-ShareAlike 3.0(CC-BY-NC-SA 3.0)] 
+ * License - see the LICENSE.md file for details or read it here https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 ## :speech_balloon: Agradecimientos
+-
+
+## 👁️‍🗨️ Otros temas
+
+[Temario página notion](https://didyde.notion.site/Programa-acad-mico-temario-y-clases-cb4c311c7e22482da48f0eeba4151561)
 
