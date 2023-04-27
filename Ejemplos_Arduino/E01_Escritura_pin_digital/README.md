@@ -1,6 +1,7 @@
 # 🟥 Ejemplo “**E01” - Escritura pin digital**
 Este ejemplo de escritura en pines digitales, incluye todo el proceso de diseño desde un diagramas de bloques, circuitos esquemáticos, diagramas de flujo, desarrollo de firmware y la ejecución de simulaciones.
 
+## :globe_with_meridians: Documentación
 [Ejemplo completo]([https://didyde.notion.site/Lenguaje-de-programaci-n-Arduino-294c2fc84f0e495e86cd944d03f3b3a1](https://www.notion.so/didyde/Entradas-y-salidas-digitales-dd1e9e80958f425582b35ef8b7124b24?pvs=4))
 
 ## :busts_in_silhouette: Autores
