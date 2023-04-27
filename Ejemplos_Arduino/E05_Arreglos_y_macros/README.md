@@ -3,7 +3,7 @@
 ## :large_blue_diamond: Descripción
 
 
-## :globe_with_meridians: Página web
+## :globe_with_meridians: Documentación
 https://www.notion.so/didyde/Entradas-y-salidas-digitales-dd1e9e80958f425582b35ef8b7124b24?pvs=4
 
 ## :large_orange_diamond: Inicio
@@ -32,9 +32,9 @@ https://www.tinkercad.com/things/drnqWRbf90d
 * 1.0
     * Initial Release
 
-## Licencia
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+## :exclamation: Licencia
+ * This project is licensed under the [Attribution-NonCommercial-ShareAlike 3.0(CC-BY-NC-SA 3.0)] 
+ * License - see the LICENSE.md file for details or read it here https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 ## :speech_balloon: Agradecimientos
 
