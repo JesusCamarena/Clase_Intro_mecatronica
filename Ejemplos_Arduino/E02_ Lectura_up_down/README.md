@@ -12,8 +12,8 @@ Este ejemplo de escritura en pines digitales, incluye todo el proceso de diseño
     * Initial Release
 
 ## :exclamation: Licencia
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+ * This project is licensed under the [Attribution-NonCommercial-ShareAlike 3.0(CC-BY-NC-SA 3.0)] 
+ * License - see the LICENSE.md file for details or read it here https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 ## :speech_balloon: Agradecimientos
 -
