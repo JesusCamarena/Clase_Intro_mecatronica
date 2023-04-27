@@ -1,4 +1,4 @@
-# :closed_book: Repositorio clase introducción a la mecatrónica
+# :closed_book: Clase introducción a la mecatrónica
 
 ## :large_blue_diamond: Descripción
 El repositorio de clases de introducción a la mecatrónica contiene recursos prácticos, ejemplos de programación en Arduino y diseño mecatrónico. Está enfocado en ayudar a estudiantes y desarrolladores a aprender y desarrollar diferentes proyectos y aplicaciones.
