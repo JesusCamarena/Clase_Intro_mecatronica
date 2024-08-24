@@ -1,4 +1,4 @@
-# :closed_book: E01 - Escritura pin digital
+# :closed_book: *Ejemplo "E09" - Contador Binario*
 
 ## :large_blue_diamond: Descripción
 
