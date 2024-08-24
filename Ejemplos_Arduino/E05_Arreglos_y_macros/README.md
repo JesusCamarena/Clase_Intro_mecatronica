@@ -1,4 +1,4 @@
-# :closed_book: **“E05” - Arreglos**
+# :closed_book: **Ejemplo “E05” - Arreglos**
 
 ## :large_blue_diamond: Descripción
 
