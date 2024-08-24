@@ -1,4 +1,4 @@
-# :closed_book: E01 - Escritura pin digital
+# :closed_book:  *Ejemplo "E07" - Estructuras de una tabla de verdad*
 
 ## :large_blue_diamond: Descripción
 
