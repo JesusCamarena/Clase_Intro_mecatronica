@@ -1,4 +1,4 @@
-# 🟥 “**Ejemplo “E03” - Funciones y definiciones**
+# 🟥 **Ejemplo “E03” - Funciones y definiciones**
 Este ejemplo muestra cómo utilizar funciones y constantes en un proyecto de Arduino para controlar LEDs y crear una secuencia de luces. El documento también proporciona un análisis de problemas comunes que se pueden presentar en el proceso de diseño e implementación de un prototipo y cómo solucionarlos.
 
 [Ejemplo completo](https://didyde.notion.site/Funciones-ejemplo-89bcf63d7e7147e1bb6d194acd834aa9)
