@@ -1,4 +1,4 @@
-# :closed_book: **"E06" - Lectura de valores digitales**
+# :closed_book: **Ejemplo "E06" - Lectura de valores digitales**
 
 ## :large_blue_diamond: Descripción
 
