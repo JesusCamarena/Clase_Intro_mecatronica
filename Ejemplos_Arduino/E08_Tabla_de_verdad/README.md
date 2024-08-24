@@ -1,4 +1,4 @@
-# :closed_book:  *Ejemplo "E07" - Estructuras de una tabla de verdad*
+# :closed_book:  *Ejemplo "E08" - Estructuras de una tabla de verdad*
 
 ## :large_blue_diamond: Descripción
 
