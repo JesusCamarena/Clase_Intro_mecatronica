@@ -1,4 +1,4 @@
-# :closed_book: *Ejemplo "E07" Estructuras de control condicionales*
+# :closed_book: *Ejemplo "E07" - Estructuras de control condicionales*
 
 ## :large_blue_diamond: Descripción
 
