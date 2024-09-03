@@ -1,0 +1,55 @@
+// C++ code
+//
+//Etiquetas
+#define FILA1 13
+#define FILA2 12
+#define FILA3 11
+#define FILA4 10
+#define FILA5 9
+#define FILA6 8
+#define FILA7 7
+#define FILA8 6
+
+#define COL1  15
+#define COL2  16
+#define COL3  17
+
+//Variables globales
+//int 2
+byte myArray[8]={0x81, 0xBD, 0x81, 0xFF, 0x81, 0xBD, 0x81, 0xFF};
+
+void setup()
+{
+ //FILAS
+  pinMode(FILA1, OUTPUT);
+  pinMode(FILA2, OUTPUT);
+  pinMode(FILA3, OUTPUT);
+  pinMode(FILA4, OUTPUT);
+  pinMode(FILA5, OUTPUT);
+  pinMode(FILA6, OUTPUT);
+  pinMode(FILA7, OUTPUT);
+  pinMode(FILA8, OUTPUT);
+ //COLUMNAS
+  pinMode(COL1, OUTPUT);
+  pinMode(COL2, OUTPUT);
+  pinMode(COL3, OUTPUT);
+}
+
+void loop()
+{
+  for (byte i = 0;i<=7;i++)
+  {  
+    digitalWrite(FILA1, myArray[i]&0b00000001);
+    digitalWrite(FILA2, myArray[i]&0b00000010);
+    digitalWrite(FILA3, myArray[i]&0b00000100);
+    digitalWrite(FILA4, myArray[i]&0b00001000);
+    digitalWrite(FILA5, myArray[i]&0b00010000);
+    digitalWrite(FILA6, myArray[i]&0b00100000);
+    digitalWrite(FILA7, myArray[i]&0b01000000);
+    digitalWrite(FILA8, myArray[i]&0b10000000);
+    digitalWrite(COL1 , i&0b00000001);
+    digitalWrite(COL2 , i&0b00000010);
+    digitalWrite(COL3 , i&0b00000100);
+    delay(2);
+  }
+}
